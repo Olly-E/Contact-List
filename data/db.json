@@ -1,0 +1,64 @@
+{
+  "contacts": [
+    {
+      "name": "Emmanuel",
+      "number": "08133946674",
+      "email": "akinsnuel@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Olasunkanmi",
+      "number": "09097389871",
+      "email": "deansam@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Lawrence",
+      "number": "08023695176",
+      "email": "akinslawrence@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Mrs Akinsiku",
+      "number": "08027079332",
+      "email": "akinwhodeyl@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Aramide",
+      "num": "08202938493",
+      "mail": "aramyd@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Samuel",
+      "number": "0903980292",
+      "email": "akinsamuel@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "James",
+      "number": "09028399449",
+      "email": "jamesjones@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Lasisi",
+      "number": "0908998988",
+      "email": "lasisiElenu@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Lasisi",
+      "number": "0908998988",
+      "email": "lasisiElenu@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Mr Macaroni",
+      "number": "08023432343",
+      "email": "macaronyou'redoingwell@gmail.com",
+      "id": 11
+    }
+  ]
+}

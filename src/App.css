@@ -1,0 +1,182 @@
+* {
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+.App{
+  width: 500px;
+  height: 900px;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 50px;
+  background-color: #FADCD9;
+  box-shadow: 5px 5px 6px grey;
+  overflow-y: scroll;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+nav {
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-around;
+  column-gap: 300px;
+  padding-top: 20px;
+  top: 0;
+  position: sticky;
+  background-color: #FADCD9;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 4px 4px;
+  font-size: 30px;
+}
+.card-div{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.card-div h3{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+}
+.card-div p {
+  margin-top: 2px;
+  margin-bottom: 20px
+}
+.card-div a {
+  text-decoration: none;
+  color: black
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-trash {
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  justify-content: space-between;
+  box-shadow: -2px 2px 4px black;
+  padding: 10px;
+  border-radius: 6px;
+}
+.content-icons {
+  display: flex;
+  gap: 30px;
+  padding: 15px;
+}
+form {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing:content-box;
+  z-index: 3;
+}
+form label {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+form input {
+  width: 430px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px -2px black;
+  padding: 5px;
+}
+form input:focus {
+  outline: none;
+}
+
+.save {
+  width: 80px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+.go-back {
+  font-size: 20px;
+  position:absolute;
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 45px;
+  padding: 5px;
+  padding-top: 5px;
+  z-index: 2;
+  color: black;
+}
+.contactView {
+  background-color: white;
+  height: 100%;
+}
+.user-icon {
+  font-size: 65px;
+  margin-top: 200px;
+  margin-left: 43.5%;
+  color:#FADCD9;
+}
+.view-text {
+  color:#FADCD9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding-top: 20px;
+  margin-left: 15%;
+  gap: 0px;
+}
+.view-name {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.view-mail {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 150px;
+
+}
+.divider {
+  color: #FADCD9;
+  width: 150px;
+}
+.home-icon {
+  font-size: 25px;
+  margin-top: 45px;
+  margin-left: 390px;
+  color: #FADCD9;
+}
+.view-link {
+  color:#FADCD9;
+}
+.view-link a {
+  text-decoration: none;
+  color:#FADCD9;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.view-trash {
+  color: #FADCD9;
+  font-size: 30px;
+  margin-top: 90px;
+  width: 100%;
+  margin-right: auto;
+}
